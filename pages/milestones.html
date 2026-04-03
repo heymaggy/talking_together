@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growing Through Language | Talking Together</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+.age-card { border-radius: 20px; overflow: hidden; border: 1px solid var(--border); margin-bottom: 32px; }
+.age-header { padding: 28px 36px; display: flex; align-items: center; gap: 20px; }
+.age-body { padding: 32px 36px; background: var(--white); display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.age-badge { font-size: 13px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: rgba(255,255,255,0.75); background: rgba(255,255,255,0.15); padding: 5px 14px; border-radius: 20px; }
+.age-title { font-size: 26px; font-weight: 800; color: #fff; }
+.age-img { height: 220px; border-radius: 14px; background: #f0f7ff; border: 1px solid #d0e4f5; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px; color: #5a8fb5; font-size: 13px; text-align: center; }
+.checklist { list-style: none; }
+.checklist li { display: flex; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 15px; color: var(--muted); line-height: 1.55; }
+.checklist li:last-child { border-bottom: none; }
+.check { width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; flex-shrink: 0; margin-top: 1px; }
+.ck-blue   { background: #dbeafe; color: #1d4ed8; }
+.ck-teal   { background: #ccfbf1; color: #0f766e; }
+.ck-green  { background: #dcfce7; color: #15803d; }
+.ck-purple { background: #f3e8ff; color: #7c3aed; }
+.help-box { background: var(--light); border-radius: 14px; padding: 24px; }
+.help-box h4 { font-size: 16px; font-weight: 700; margin-bottom: 14px; color: var(--text); }
+.pa-section { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 20px; padding: 40px; margin-top: 40px; }
+.pa-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-top: 24px; }
+.pa-card { background: #fff; border: 1px solid var(--border); border-radius: 14px; padding: 24px; text-align: center; }
+.pa-icon { font-size: 32px; margin-bottom: 12px; }
+.pa-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+.pa-card p { font-size: 13px; color: var(--muted); line-height: 1.6; }
+@media(max-width:768px){ .age-body{grid-template-columns:1fr;} .pa-grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="../index.html" class="nav-brand">💬 <span>Talking</span> Together</a>
+  <div class="nav-links">
+    <a href="../index.html">Home</a>
+    <a href="how-children-learn.html">How Children Learn</a>
+    <a href="milestones.html" class="active">Milestones</a>
+    <a href="at-home.html">At Home</a>
+    <a href="every-language.html">Every Language</a>
+    <a href="resources.html">Resources</a>
+  </div>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-text">
+    <div class="page-tag">Developmental Progressions</div>
+    <h1>Growing Through <span>Language</span></h1>
+    <p>Every child develops language at their own pace — but there are typical patterns that help us understand what to expect and how to best support your child along the way (Johnston, 2010).</p>
+  </div>
+  <div class="page-hero-img">
+    📸<br><span style="font-size:13px;margin-top:8px;">Add image here<br><small style="color:rgba(255,255,255,0.4);">Suggested: happy toddler babbling or talking</small></span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-tag">Age by Age</div>
+  <h2 class="section-title">Language milestones <span>from birth to school</span></h2>
+  <p class="section-subtitle">Use this guide to understand typical development. Remember — all children develop at their own pace. If you have concerns, speak with your child's doctor or an early childhood professional.</p>
+
+  <!-- AGE 1 -->
+  <div class="age-card">
+    <div class="age-header" style="background:#1F4E79;">
+      <div><div class="age-badge">Birth – 18 months</div><div class="age-title">Early Communicators</div></div>
+    </div>
+    <div class="age-body">
+      <div>
+        <h4 style="font-size:17px;font-weight:700;margin-bottom:16px;color:var(--text);">What you might notice:</h4>
+        <ul class="checklist">
+          <li><span class="check ck-blue">✓</span>Cooing and babbling from the earliest weeks</li>
+          <li><span class="check ck-blue">✓</span>Turning toward voices and familiar sounds</li>
+          <li><span class="check ck-blue">✓</span>Enjoying nursery rhymes, songs and being read to</li>
+          <li><span class="check ck-blue">✓</span>Attempting to sing or chant along with rhymes</li>
+          <li><span class="check ck-blue">✓</span>Showing interest in picture books</li>
+          <li><span class="check ck-blue">✓</span>Beginning to understand simple words (e.g. 'no', 'mama', 'bye-bye')</li>
+        </ul>
+      </div>
+      <div>
+        <div class="help-box">
+          <h4>💙 What helps at this stage:</h4>
+          <ul class="checklist">
+            <li><span class="check ck-blue">→</span>Respond to every coo and babble — these are their first conversations</li>
+            <li><span class="check ck-blue">→</span>Read simple picture books and talk about what you see</li>
+            <li><span class="check ck-blue">→</span>Sing nursery rhymes and action songs every day</li>
+            <li><span class="check ck-blue">→</span>Make eye contact and smile when talking to your baby</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AGE 2 -->
+  <div class="age-card">
+    <div class="age-header" style="background:#0d6e6e;">
+      <div><div class="age-badge">12 – 36 months</div><div class="age-title">Early Language Users</div></div>
+    </div>
+    <div class="age-body">
+      <div>
+        <h4 style="font-size:17px;font-weight:700;margin-bottom:16px;color:var(--text);">What you might notice:</h4>
+        <ul class="checklist">
+          <li><span class="check ck-teal">✓</span>First words appearing around 12 months</li>
+          <li><span class="check ck-teal">✓</span>Vocabulary growing rapidly — several new words a week</li>
+          <li><span class="check ck-teal">✓</span>Starting to combine two words (e.g. 'more milk', 'daddy go')</li>
+          <li><span class="check ck-teal">✓</span>Beginning to hear gaps between words in sentences</li>
+          <li><span class="check ck-teal">✓</span>Growing interest in syllables and rhymes</li>
+          <li><span class="check ck-teal">✓</span>Pointing at things and looking to you to name them</li>
+        </ul>
+      </div>
+      <div>
+        <div class="help-box">
+          <h4>💚 What helps at this stage:</h4>
+          <ul class="checklist">
+            <li><span class="check ck-teal">→</span>Name everything around the house during daily routines</li>
+            <li><span class="check ck-teal">→</span>Expand what they say — if they say 'dog', you say 'Yes! A big fluffy dog!'</li>
+            <li><span class="check ck-teal">→</span>Read books with repetition and simple rhymes</li>
+            <li><span class="check ck-teal">→</span>Sing simple songs with actions (Heads, Shoulders, Knees and Toes)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AGE 3 -->
+  <div class="age-card">
+    <div class="age-header" style="background:#166534;">
+      <div><div class="age-badge">30 – 60 months</div><div class="age-title">Language &amp; Emergent Literacy Learners</div></div>
+    </div>
+    <div class="age-body">
+      <div>
+        <h4 style="font-size:17px;font-weight:700;margin-bottom:16px;color:var(--text);">What you might notice:</h4>
+        <ul class="checklist">
+          <li><span class="check ck-green">✓</span>Speaking in full sentences</li>
+          <li><span class="check ck-green">✓</span>Telling simple stories with a beginning, middle and end</li>
+          <li><span class="check ck-green">✓</span>Breaking words into syllables (el-e-phant)</li>
+          <li><span class="check ck-green">✓</span>Beginning to recognise and produce rhymes</li>
+          <li><span class="check ck-green">✓</span>Noticing words that start with the same sound (from ~36 months)</li>
+          <li><span class="check ck-green">✓</span>Retelling events from their day</li>
+        </ul>
+      </div>
+      <div>
+        <div class="help-box">
+          <h4>💚 What helps at this stage:</h4>
+          <ul class="checklist">
+            <li><span class="check ck-green">→</span>Ask open questions: 'What do you think will happen next?'</li>
+            <li><span class="check ck-green">→</span>Encourage storytelling — tell family stories together</li>
+            <li><span class="check ck-green">→</span>Play rhyming and word games</li>
+            <li><span class="check ck-green">→</span>Clap syllables in words together</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AGE 4 -->
+  <div class="age-card">
+    <div class="age-header" style="background:#5b21b6;">
+      <div><div class="age-badge">5+ years</div><div class="age-title">School Ready Communicators</div></div>
+    </div>
+    <div class="age-body">
+      <div>
+        <h4 style="font-size:17px;font-weight:700;margin-bottom:16px;color:var(--text);">What you might notice:</h4>
+        <ul class="checklist">
+          <li><span class="check ck-purple">✓</span>Using complex sentences and varied vocabulary</li>
+          <li><span class="check ck-purple">✓</span>Telling detailed stories with clear structure</li>
+          <li><span class="check ck-purple">✓</span>Engaging in real, extended conversations on a topic</li>
+          <li><span class="check ck-purple">✓</span>Understanding most language used around them</li>
+          <li><span class="check ck-purple">✓</span>Beginning to read and write</li>
+        </ul>
+      </div>
+      <div>
+        <div class="help-box">
+          <h4>💜 What helps at this stage:</h4>
+          <ul class="checklist">
+            <li><span class="check ck-purple">→</span>Have real, extended conversations about their interests</li>
+            <li><span class="check ck-purple">→</span>Read chapter books together and talk about the story</li>
+            <li><span class="check ck-purple">→</span>Encourage retelling and summarising stories</li>
+            <li><span class="check ck-purple">→</span>Visit the library regularly — let them choose their own books</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHONOLOGICAL AWARENESS -->
+<section class="section section-alt">
+  <div class="section-tag">Sound Awareness</div>
+  <h2 class="section-title">Playing with <span>sounds</span></h2>
+  <p class="section-subtitle">Before children learn to read, they need to understand that language is made up of sounds. This is called phonological awareness — and it develops naturally through play!</p>
+
+  <div class="pa-section">
+    <h3 style="font-size:22px;font-weight:700;color:#78350f;">What is phonological awareness?</h3>
+    <p style="color:#92400e;margin-top:12px;font-size:16px;line-height:1.7;">It is the ability to hear, identify and play with the sounds in language. It includes recognising rhymes, clapping syllables, noticing words with the same starting sound, and eventually blending and segmenting sounds. It develops long before children start reading (NSW Government, 2025).</p>
+
+    <div class="pa-grid">
+      <div class="pa-card">
+        <div class="pa-icon">🎵</div>
+        <h4>Rhyme awareness</h4>
+        <p>Noticing that cat, hat and bat all sound alike. Develops from around 30 months through songs and rhyming books.</p>
+      </div>
+      <div class="pa-card">
+        <div class="pa-icon">👏</div>
+        <h4>Syllable awareness</h4>
+        <p>Breaking words into beats — el-e-phant has three beats. A great game for 3–4 year olds using clapping!</p>
+      </div>
+      <div class="pa-card">
+        <div class="pa-icon">🐍</div>
+        <h4>Sound awareness</h4>
+        <p>Noticing words that start with the same sound — "snake starts with sss!" Develops from around 36 months.</p>
+      </div>
+    </div>
+
+    <div class="inline-quote" style="margin-top:32px;">You do not need special materials. Singing songs, reading rhyming books and playing word games are the most effective tools available to any family.<cite>NSW Government (2025); State Government of Victoria (n.d.)</cite></div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="section">
+  <div class="section-tag">Watch & Learn</div>
+  <h2 class="section-title">See the <span>milestones</span> in action</h2>
+  <div style="background:#e8f4fd;border:2px dashed #bde0f7;border-radius:20px;height:320px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;color:#5a8fb5;text-align:center;padding:40px;">
+    <div style="font-size:48px;">▶️</div>
+    <div>
+      <strong style="font-size:18px;color:#1F4E79;">Add a YouTube video here</strong><br>
+      <span style="font-size:14px;margin-top:8px;display:block;">Suggested search: "child language development milestones 0-5" or "early language development explained"</span>
+    </div>
+  </div>
+</section>
+
+<div class="quote-band">
+  <p class="quote-text">"Children begin to understand key literacy concepts and processes, such as the sounds of language, letter-sound relationships, concepts of print and the ways that texts are structured."</p>
+  <p class="quote-source">AGDE (2022, p. 60)</p>
+</div>
+
+<section class="section section-alt" style="text-align:center;">
+  <h2 class="section-title">What can you do <span>at home</span>?</h2>
+  <p class="section-subtitle" style="margin:0 auto 32px;">Now you know what to expect — find out the simple everyday things you can do to support your child's language at home.</p>
+  <a href="at-home.html" class="btn btn-primary" style="font-size:16px;padding:16px 36px;">At Home Tips →</a>
+</section>
+
+<footer class="footer">
+  <div><div class="footer-brand">💬 Talking Together</div><div class="footer-tagline">Supporting your child's language at home</div></div>
+  <div class="footer-nav">
+    <a href="../index.html">Home</a><a href="how-children-learn.html">How Children Learn</a>
+    <a href="milestones.html">Milestones</a><a href="at-home.html">At Home</a>
+    <a href="every-language.html">Every Language</a><a href="resources.html">Resources</a>
+  </div>
+  <div class="footer-info">ECE502 — Language and Multimodal Literacies<br>Polytechnic Institute Australia, 2026</div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>
